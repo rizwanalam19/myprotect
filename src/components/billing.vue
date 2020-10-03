@@ -1,6 +1,6 @@
 <template>
 <div>
-  <br><br>
+  <br><br><br><br>
   <div class="container">
       <h3 class="font-weight-bold mb-5">Billing Details</h3>
     <div class="row">

@@ -42,6 +42,6 @@
 </script>
 <style scoped>
  .fas{
-  color:#090979;
+  color:#35aec8;
 }
 </style>

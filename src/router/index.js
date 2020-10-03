@@ -14,6 +14,8 @@ import List from '@/components/listofproduct';
 import Footer from '@/global/footer.vue';
 import Navbar from '@/global/navbar.vue';
 import Info from '@/components/infograph.vue';
+import Contact from '@/components/Contact.vue'
+import Blog from '@/components/Blog.vue'
 
 Vue.use(Router);
 
@@ -89,6 +91,16 @@ export default new Router({
       path: '/info',
       name: 'Info',
       component: Info
+    },
+    {
+      path: '/contact',
+      name: 'Contact',
+      component: Contact
+    },
+    {
+      path: '/blog',
+      name: 'Blog',
+      component: Blog
     }
   ]
 });

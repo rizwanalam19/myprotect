@@ -1,6 +1,7 @@
 <template>
 <div>
-    <h3 class="font-weight-bold mb-5">Product Details</h3>
+  <br>
+    <h3 class="font-weight-bold  mt-5">Product Details</h3>
   <div class="container my-5 py-5 z-depth-1">
 
 <div class="row">

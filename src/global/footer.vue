@@ -1,9 +1,9 @@
 <template>
   <div>
     <br>
-    
+
     <!-- Footer -->
-    <footer class="page-footer font-small pt-4" style="background: linear-gradient(90deg, rgba(0,212,255,0.8575805322128851) 0%, rgba(9,9,121,1) 72%);">
+    <footer class="page-footer font-small pt-4" style="background: linear-gradient(120deg, rgba(0,212,255,0.8575805322128851) 0%, rgba(9,9,121,1) 72%);">
 
       <!-- Footer Links -->
       <div class="container-fluid text-center text-md-left">

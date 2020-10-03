@@ -1,12 +1,13 @@
 <template>
 <div>
-<div class="container-fluid" style="background-color:#caeaf1">
+
+<div class="container-fluid mt-5"  style="background-color:#caeaf1; padding-top:18px;">
 <div class="row">
 <div class="col-lg-6 pt-5">
 <div class=" text-left pt-5 pl-5">
 <p class="h1 text-uppercase">How our products</p>
 
-<p class="h1 ">save you</p>
+<p class="h1 text-uppercase">save you</p>
 <p class="">In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without relying on meaningful content.</p>
 <br>
 <a class="btn btn-info ml-auto" style="border-radius: 30px;">Learn</a>

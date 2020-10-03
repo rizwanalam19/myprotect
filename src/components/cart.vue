@@ -1,7 +1,7 @@
 <template>
 
-  <div class="container  z-depth-1 rounded mt-4">
-
+  <div class="container  z-depth-1 rounded mt-5 pt-2">
+<br>
 
     <!--Section: Content-->
     <section class="dark-grey-text">
@@ -136,9 +136,11 @@
             </h5>
           </td>
           <td colspan="3" class="text-right">
+              <router-link to="/billing">
             <button type="button" class="btn btn-primary" style="border-radius: 20px;">Complete purchase
               <i class="fas fa-angle-right right"></i>
             </button>
+            </router-link>
           </td>
         </tr>
         <!-- Fourth row -->
