@@ -1,12 +1,20 @@
 <template>
   <div id="app">
+     <Navbar/>
       <router-view/>
+      <Footer />
   </div>
 </template>
 
 <script>
+import Navbar from '@/global/navbar.vue';
+import Footer from '@/global/footer.vue';
 export default {
-  name: 'App'
+  name: 'App',
+  components: {
+    Footer,
+    Navbar
+  }
 }
 </script>
 
@@ -15,6 +23,6 @@ export default {
 
 #app {
   text-align: center;
-  
+
 }
 </style>

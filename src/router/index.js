@@ -12,6 +12,8 @@ import Certificate from '@/components/certificate';
 import Checkout from '@/components/checkout';
 import List from '@/components/listofproduct';
 import Footer from '@/global/footer.vue';
+import Navbar from '@/global/navbar.vue';
+import Info from '@/components/infograph.vue';
 
 Vue.use(Router);
 
@@ -77,6 +79,16 @@ export default new Router({
       path: '/foot',
       name: 'Footer',
       component: Footer
+    },
+    {
+      path: '/Nav',
+      name: 'Navbar',
+      component: Navbar
+    },
+    {
+      path: '/info',
+      name: 'Info',
+      component: Info
     }
   ]
 });
