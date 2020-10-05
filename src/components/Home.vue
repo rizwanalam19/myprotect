@@ -19,6 +19,11 @@
 </div>
 </div>
 </div>
+<Arrival/>
+<br>
+<img src="@/assets/banner.jpg" width="100%" height="300px">
+<Section1/>
+
 <Certificate/>
 <Info/>
 <Testimonial/>
@@ -26,14 +31,20 @@
 </template>
 
 <script>
+import Section1 from '@/components/section1';
 import Certificate from '@/components/certificate';
 import Testimonial from '@/components/testimonial';
 import Info from '@/components/infograph';
+import Arrival from '@/components/arrival';
+
 export default{
 components: {
 Certificate,
 Testimonial,
-Info
+Info,
+Arrival,
+Section1
+
 }
 }
 </script>

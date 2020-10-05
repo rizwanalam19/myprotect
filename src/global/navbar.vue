@@ -1,52 +1,40 @@
+
 <template>
-  <div>
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar indigo">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav ml-auto pr-5">
-      <li class="nav-item ">
-        <router-link to="/home">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-        </router-link>
-      </li>
-      <li class="nav-item">
-        <router-link to="/list">
-        <a class="nav-link" href="#">Product</a>
+  <mdb-navbar color="secondary" position="top" dark>
+    <mdb-navbar-brand href="#">
+        <router-link to="/">
+      Navbar
       </router-link>
-      </li>
-      <li class="nav-item">
-          <router-link to="/blog">
-        <a class="nav-link" href="#">Blog</a>
+    </mdb-navbar-brand>
+    <mdb-navbar-toggler>
+      <mdb-navbar-nav>
+        <router-link to="/">
+        <mdb-nav-item href="#" active>Home</mdb-nav-item>
           </router-link>
-      </li>
-      <li class="nav-item">
-        <router-link to="/contact">
-        <a class="nav-link" href="#">Contact</a>
+          <router-link to="/list">
+        <mdb-nav-item href="#">Product</mdb-nav-item>
+          </router-link>
+         <router-link to="/contact">
+        <mdb-nav-item href="#">Contact </mdb-nav-item>
         </router-link>
-      </li>
-    </ul>
-
-  </div>
-</nav>
-
-</div>
-
+      </mdb-navbar-nav>
+      <form>
+        <mdb-input type="text" class="text-white" placeholder="Search" aria-label="Search" label navInput waves waves-fixed/>
+      </form>
+    </mdb-navbar-toggler>
+  </mdb-navbar>
 </template>
-
 <script>
-  // import {  mdbNavbarBrand, mdbNavbarToggler, mdbNavbarNav, mdbNavItem } from 'mdbvue';
+  import { mdbNavbar, mdbNavbarBrand, mdbNavbarToggler, mdbNavbarNav, mdbNavItem, mdbInput } from 'mdbvue';
   export default {
     name: 'NavbarPage',
     components: {
-
-      // mdbNavbarBrand,
-      // mdbNavbarToggler,
-      // mdbNavbarNav,
-      // mdbNavItem
+      mdbNavbar,
+      mdbNavbarBrand,
+      mdbNavbarToggler,
+      mdbNavbarNav,
+      mdbNavItem,
+      mdbInput
     }
   }
 </script>
